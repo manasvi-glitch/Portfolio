@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Developer</title>
+    <meta name="description" content="Cybersecurity learner. Backend builder. Lifelong problem solver.
+I design secure systems, explore vulnerabilities with curiosity, and continuously evolve with technology.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-globes">
+        <div class="globe globe-1"></div>
+        <div class="globe globe-2"></div>
+        <div class="globe globe-3"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="logo">Portfolio.</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+            <a href="https://drive.google.com/drive/folders/18-2mr2HgaZS0Q07bzSqQ5NwIgG4yDtWT?usp=sharing"
+                class="btn btn-primary" download>Download Resume</a>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about" class="hero">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1 class="name"><span class="gradient-text"> Manasvi Rajput</span></h1>
+            <p class="tagline">Cybersecurity learner. Backend builder. Lifelong problem solver.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-secondary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="experience" class="section">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content glass-card">
+                    <span class="date">September 2025</span>
+                    <h3>Cybersecurity - IAM Developer</h3>
+                    <p class="company">Tata (via Forage)</p>
+                    <p class="description">Completed a job simulation involving identity and access management (IAM).
+                        Analyzed IAM policies and implemented least privilege access controls.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <h2 class="section-title">Education</h2>
+        <div class="education-grid">
+            <div class="edu-card glass-card">
+                <div class="icon"><i class="fas fa-user-graduate"></i></div>
+                <h3>Bachelor's Of Computer Applications(Hons)</h3>
+                <p class="institution">Vivekananda Institute Of Professional Studies - Technical Campus (GGSIPU)</p>
+                <span class="year">2025 - 2029</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Backend Development</h2>
+        <div class="projects-grid">
+
+            <!-- Project Card 1 -->
+            <a href="https://github.com/manasvi-glitch/Mini-URL-Shortener" target="_blank" class="project-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1555099962-4199c345e5dd?q=80&w=2070&auto=format&fit=crop');">
+                </div>
+                <div class="card-overlay glass-card">
+                    <h3>Mini URL Shortener</h3>
+                    <p>A high-performance URL shortening service with analytics.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>FastAPI</span>
+                        <span>SQLite</span>
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JS</span>
+                    </div>
+                    <span class="view-project">View Project <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+
+            <!-- Project Card 2 -->
+            <a href="https://drive.google.com/file/d/15a8v5BB-Yc6l5FtxzyoYhXKGiQ0Q3jVN/view?usp=sharing"
+                class="project-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?q=80&w=2070&auto=format&fit=crop');">
+                </div>
+                <div class="card-overlay glass-card">
+                    <h3>Govt Schemes Portal</h3>
+                    <p>Information portal for Girl Child and Senior Citizens schemes.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>Tkinter</span>
+                        <span>MySQL</span>
+                    </div>
+                    <span class="view-project">View Project <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+
+        </div>
+
+        <h2 class="section-title" style="margin-top: 4rem;">Cybersecurity</h2>
+        <div class="projects-grid">
+            <!-- Project Card 3 -->
+            <a href="https://drive.google.com/file/d/13h11_gmSFCwLqQnUpq6ccBXG89TpA5q1/view?usp=sharing" target="_blank"
+                class="project-card">
+                <div class="card-image"
+                    style="background-image: url('https://images.unsplash.com/photo-1563206767-5b1d972eefab?q=80&w=2069&auto=format&fit=crop');">
+                </div>
+                <div class="card-overlay glass-card">
+                    <h3>Packet Capture Analysis</h3>
+                    <p>It focuses on capturing and analyzing real-time network traffic using Wireshark to understand how
+                        devices communicate over the internet. By examining packets, protocols, IP addresses, and ports,
+                        the study demonstrates how secure and normal web traffic appears at the network level.</p>
+                    <div class="tags">
+                        <span>Wireshark</span>
+                        <span>Python</span>
+                        <span>Networking</span>
+                    </div>
+                    <span class="view-project">View Project <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="glass-card contact-container">
+            <h2>Let's Connect</h2>
+            <p>I'm currently available for Internship, freelance work or full-time opportunities.</p>
+
+            <div class="social-links">
+                <a href="mailto:manasvirajput18@gmail.com" class="social-btn" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email Me</span>
+                </a>
+                <a href="https://github.com/manasvi-glitch" target="_blank" class="social-btn" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/manasvi-rajput-70b466360" target="_blank" class="social-btn"
+                    aria-label="LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Manasvi Rajput. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
